@@ -9,7 +9,8 @@
 
 ANT_HOME='/opt/ant'
 CVSROOT='/gestalt/canonical/cvs'
-
+S3_KEY='AKIAJ5KJCY62W5BPQP4Q'
+S3_SECRET='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'
 
 # If running interactively, then:
 if [ "$PS1" ]; then
@@ -20,6 +21,7 @@ if [ "$PS1" ]; then
     # General Aliases
     alias ls='ls -lA --color=auto'
     alias dir='ls --color=auto --format=vertical'
+    alias doapt='sudo apt-get update;sudo apt-get dist-upgrade'
 
     # Ruby Dev Aliases
     alias sg='./script/generate'
