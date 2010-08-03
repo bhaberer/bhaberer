@@ -7,11 +7,6 @@
 
 # Various PATH and ENV sets
 
-ANT_HOME='/opt/ant'
-CVSROOT='/gestalt/canonical/cvs'
-S3_KEY='AKIAJ5KJCY62W5BPQP4Q'
-S3_SECRET='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'
-
 # If running interactively, then:
 if [ "$PS1" ]; then
 
