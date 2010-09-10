@@ -1,0 +1,12 @@
+#
+# GNU Screen configuration
+#
+startup_message off
+caption always "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%< %{=b BW} %H %{-} %l %c %d/%m/%Y"
+bindkey ^[, prev
+bindkey ^[; next
+shelltitle ""
+autodetach on
+defscrollback 65000
+#screen -t "log" 0 tail -F /var/log/messages
+#screen -t "errors" 1 sh -c "tail -F /var/log/httpd/*error*.log"
