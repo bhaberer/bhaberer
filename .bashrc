@@ -19,10 +19,12 @@ if [ "$PS1" ]; then
     alias doapt='sudo apt-get update;sudo apt-get dist-upgrade'
 
     # Ruby Dev Aliases
-    alias sg='./script/generate'
-    alias sc='./script/console'
-    alias dbc='./script/dbconsole -p'
-    alias push='git add *;git commit -a;git push;git push heroku master;'
+    alias sg='rails generate'
+    alias sc='rails c'
+    alias dbc='rails dbconsole -p'
+    alias ph='push;git push heroku master'
+    alias push='commit;git push'
+    alias commit='git add *;git commit -a'
 
     # Playdom aliases
     
